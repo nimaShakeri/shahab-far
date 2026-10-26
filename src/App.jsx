@@ -1,5 +1,4 @@
 
-
 import {
   BrowserRouter,
   Navigate,
@@ -7,7 +6,7 @@ import {
   Routes,
 } from "react-router-dom";
 
-import { Box } from "@mui/material";
+import { Box, CssBaseline, ThemeProvider } from "@mui/material";
 import { Navbar, Footer } from "./Components";
 import {
   Product,
@@ -15,9 +14,13 @@ import {
   Home,
   About,
 } from "./Pages";
+import theme from "./Them";
 
 export default function App() {
   return (
+    <ThemeProvider theme={theme}>
+       <CssBaseline />
+
     <BrowserRouter>
       <Box
          sx={{
@@ -54,5 +57,6 @@ export default function App() {
         <Footer />
       </Box>
     </BrowserRouter>
+    </ThemeProvider>
   );
 }

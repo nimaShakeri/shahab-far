@@ -2,42 +2,42 @@
 export const products = [
   {
     id: 1,
-    title: "salam",
-    description: "توضیحات محصول اول",
+    title: "G0 109",
+    description: "نوع:700-550,مواد سازنده:HDPE-سبک و قابل حمل-مناسب جهت انواع سیم و کابل-تولید شده با مواد درجه یک بادی و مطابق با استاندار جهانی",
     image: "/product1-removebg-preview.png",
   },
   {
     id: 2,
-    title: "محصول دوم",
-    description: "توضیحات محصول دوم",
+    title: "G0 58",
+    description: "نوع:220-مواد سازنده:PE,PS-وزن:220gr- نوع جنس به درخواست مشتری قابل تولید است-مناسب جهت انواع سیم و کابل- ساخته شده از مواد درجه یک و مطابق استاندارد جهانی",
    
     image: "/product2-removebg-preview.png",
   },
   {
     id: 3,
-    title: "محصول سوم",
-    description: "توضیحات محصول سوم",
+    title: "G0 84",
+    description:"مدل:200C-مواد سازنده:PE,PS-وزن:330gr-نوع جنس به درخواست مشتری قابل تولید است-مناسب جهت انواع سیم و کابل- ساخته شده از مواد درجه یک و مطابق استاندارد جهانی", 
    
     image: "/product3-removebg-preview.png",
   },
   {
     id: 4,
-    title: "محصول چهارم",
-    description: "توضیحات محصول چهارم",
+    title: "G0 108",
+    description: "نوع:430-500,وزن:4700gr-مواد سازنده:HDPE-سبک و قابل حمل-مناسب جهت انواع سیم و کابل-تولید شده با مواد درجه یک بادی و مطابق با استاندار جهانی",
    
     image: "/product4-removebg-preview.png",
   },
   {
     id: 5,
-    title: "محصول پنجم",
-    description: "توضیحات محصول پنجم",
+    title: "G0 100",
+    description: "نوع:400E-بوش پلاستیکی:3100-مواد سازنده:ABS-PS",
    
     image: "/product5-removebg-preview.png",
   },
   {
     id: 6,
-    title: "محصول ششم",
-    description: "توضیحات محصول ششم",
+    title: "G0 107",
+    description: "نوع:400-300,وزن:1800gr-مواد سازنده:HDPE",
     
     image: "/product6-removebg-preview.png",
   },
@@ -62,13 +62,7 @@ export const products = [
    
     image: "/product9-removebg-preview.png",
   },
-  {
-    id: 10,
-    title: "محصول دهم",
-    description: "توضیحات محصول دهم",
-    
-    image: "/product10-removebg-preview.png",
-  },
+ 
   {
     id: 11,
     title: "محصول یازدهم",

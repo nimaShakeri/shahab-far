@@ -128,13 +128,13 @@ export default function ProductDetail() {
                 {product.description}
               </Typography>
 
-              <Typography
+              {/* <Typography
                 variant="body2"
                 color="text.secondary"
                 sx={{ mt: 3 }}
               >
                 شناسه محصول: {product.id}
-              </Typography>
+              </Typography> */}
             </Box>
           </Box>
         </Box>
