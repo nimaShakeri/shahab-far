@@ -164,3 +164,34 @@ export const products = [
     category: "industrial-baskets-boxes",
   },
 ];
+
+const categoryEnglishNames = {
+  "gargare-sim-laki": "Enamelled Wire Spools",
+  "gargare-saloni": "Wire and Cable Reels",
+  "gargare-mahsouli": "Production Wire and Cable Reels",
+  "gargare-ranje": "Ranget Wire Reels",
+  "industrial-baskets-boxes": "Industrial Baskets and Boxes",
+};
+
+const productEnglishNames = {
+  7: "Product 7", 8: "Product 8", 9: "Product 9", 11: "Product 11",
+  12: "Product 12", 13: "Product 13", 14: "Product 14", 15: "Product 15",
+  16: "Product 16", 17: "Product 17", 18: "Product 18", 19: "Product 19", 20: "Product 20",
+};
+
+const productEnglishDescriptions = {
+  1: "Type: 700–550. Material: HDPE. Lightweight and portable, suitable for various wire and cable types. Manufactured with high-grade blow-moulding material to international standards.",
+  2: "Type: 220. Materials: PE, PS. Weight: 220 g. Can be produced with customer-requested material. Suitable for various wire and cable types and made from high-grade materials.",
+  3: "Model: 200C. Materials: PE, PS. Weight: 330 g. Can be produced with customer-requested material and is suitable for various wire and cable types.",
+  4: "Type: 430–500. Weight: 4,700 g. Material: HDPE. Lightweight and portable, suitable for various wire and cable types.",
+  5: "Type: 400E. Plastic bushing: 3100. Materials: ABS / PS.",
+  6: "Type: 400–300. Weight: 1,800 g. Material: HDPE.",
+};
+
+categories.forEach((category) => {
+  category.titleEn = categoryEnglishNames[category.slug] || category.title;
+});
+products.forEach((product) => {
+  product.titleEn = productEnglishNames[product.id] || product.title;
+  product.descriptionEn = productEnglishDescriptions[product.id] || `Specifications for ${product.titleEn} are available on request.`;
+});

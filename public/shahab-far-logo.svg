@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Shahab Far Toos</title>
+  <desc id="desc">Geometric industrial spool and circular motion mark</desc>
+  <defs>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#36c7b8"/>
+      <stop offset="1" stop-color="#087f91"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#173c50"/>
+      <stop offset="1" stop-color="#0b1b27"/>
+    </linearGradient>
+  </defs>
+  <circle cx="128" cy="128" r="107" fill="#f8fcfc"/>
+  <path d="M190 57a88 88 0 1 0 24 101" fill="none" stroke="url(#teal)" stroke-width="17" stroke-linecap="round"/>
+  <path d="M207 139l12 28 18-25" fill="none" stroke="url(#teal)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M65 89h96c14 0 24 9 24 22s-10 22-24 22h-38v17h42c14 0 24 9 24 22s-10 22-24 22H91" fill="none" stroke="url(#navy)" stroke-width="17" stroke-linecap="square" stroke-linejoin="round"/>
+  <path d="M111 79v98m-21-1h43m-22 0-20 27" fill="none" stroke="url(#teal)" stroke-width="17" stroke-linecap="square" stroke-linejoin="round"/>
+  <path d="M68 58l13 0" stroke="#173c50" stroke-width="8" stroke-linecap="round"/>
+</svg>

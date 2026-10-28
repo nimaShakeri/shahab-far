@@ -1,15 +1,13 @@
-import { createTheme } from '@mui/material/styles';
+import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
-  typography: {
-    fontFamily: 'Vazirmatn, sans-serif',
-  },
+  typography: { fontFamily: 'Vazirmatn, Inter, Arial, sans-serif' },
   components: {
     MuiCssBaseline: {
       styleOverrides: {
-        body: {
-          fontFamily: 'Vazirmatn, sans-serif',
-        },
+        html: { minHeight: "100%" },
+        body: { minHeight: "100vh", fontFamily: 'Vazirmatn, Inter, Arial, sans-serif' },
+        "*, *::before, *::after": { boxSizing: "border-box" },
       },
     },
   },

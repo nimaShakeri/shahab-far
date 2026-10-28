@@ -1,16 +1,31 @@
-# React + Vite
+# Shahab Far Toos Website | وب‌سایت شهاب فر طوس
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite company website with Persian and English language support.
 
-Currently, two official plugins are available:
+## Run locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm install
+npm run dev
+```
 
-## React Compiler
+Create a production build with:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm run build
+```
 
-## Expanding the ESLint configuration
+## Languages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Use the **EN / فا** button in the top navigation to switch between English and Persian. The selected language is saved in local storage and restored on the next visit. The document language and text direction switch automatically (LTR for English, RTL for Persian).
+
+To update translations, edit `src/i18n/LanguageContext.jsx`. Product and category translations are stored in `src/data/products.js`.
+
+---
+
+این پروژه با React و Vite ساخته شده و از زبان فارسی و انگلیسی پشتیبانی می‌کند.
+
+- برای اجرا: `npm install` و سپس `npm run dev`
+- با دکمه `EN / فا` در نوار بالای سایت زبان را تغییر دهید.
+- زبان انتخاب‌شده ذخیره می‌شود و جهت صفحه نیز به‌صورت خودکار بین راست‌چین و چپ‌چین تغییر می‌کند.
+- ترجمه متن‌های رابط کاربری در `src/i18n/LanguageContext.jsx` و ترجمه محصولات در `src/data/products.js` قرار دارد.
